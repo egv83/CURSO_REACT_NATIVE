@@ -10,7 +10,25 @@
     <input type="text" id="txtValor1"/>
     <input type="text" id="txtValor2"/>
 
-    <input type="button" value="SUMAR" onclick="sumar()"/>
-    <input type="button" value="RESTAR" onclick="restar()"/>
+    <!-- <input type="button" value="SUMAR" onclick="ejecutarSumar()"/>
+    <input type="button" value="RESTAR" onclick="ejecutarRestar()"/> -->
+
+    <input type="button" value="SUMAR" onclick="ejecutar(sumar)"/>
+    <input type="button" value="RESTAR" onclick="ejecutar(restar)"/>
+    <input type="button" value="Buscar Menor" onclick="ejecutar(buscarMenor)"/>
+
+    <input type="button" value="Buscar Menor Anonima" onclick="ejecutar((x, y) => {
+        if (x < y) {
+            alert('El menor es: '+x);
+        }else{
+            alert('El menor es: '+y);
+        }
+    })"/>
+
+<input type="button" value="MULTIPLICAR" onclick="ejecutar((y,z)=>{
+    let resultado = y*z;
+    alert('La multiplicacion es: '+resultado);
+})"/>
+
 </body>
 </html>
