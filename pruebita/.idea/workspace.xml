@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="010081ac-cdf3-4a6a-a32e-b95f690abf2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../productos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productos/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productos/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productos/assets/adaptive-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productos/assets/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productos/assets/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productos/assets/splash-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productos/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productos/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productos/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculaIMC/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../calculaIMC/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2zZdFurZQe1x7bfsjZYl9ClkEqS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "H:/PROYECTOS/CURSO_REACT_NATIVE/pruebita",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="010081ac-cdf3-4a6a-a32e-b95f690abf2e" name="Changes" comment="" />
+      <created>1751942428420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751942428420</updated>
+      <workItem from="1751942429559" duration="22000" />
+    </task>
+    <servers />
+  </component>
+</project>
