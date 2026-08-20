@@ -60,6 +60,7 @@ export const ListaProductos = ({navigation}) => {
                 onPress={() => {
                     navigation.navigate("ProductosForm",{fnRenderList:recuperarProductos});
                 }}
+                style={styles.botonAdd}
             />
         </View>
     );
@@ -132,6 +133,10 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontFamily: 'italic',
         color: 'red',
+    },
+
+    botonAdd:{
+        paddingBottom: 40
     }
 
 });

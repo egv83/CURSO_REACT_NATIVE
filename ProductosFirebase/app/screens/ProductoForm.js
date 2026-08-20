@@ -2,9 +2,10 @@ import {View, Text, StyleSheet} from "react-native";
 import {Input, Icon, Button} from '@rneui/base';
 import {useState} from "react";
 import {guardar} from "../services/ProductosServices";
+import { logOut } from "../services/AutenticacionService";
 
 
-export const ProductoForm = () => {
+export const ProductoForm = ({navigation,route}) => {
     const [codigo, setCodigo] = useState(null);
     const [nombre, setNobre] = useState(null);
     const [precio, setPrecio] = useState(null);
@@ -17,6 +18,11 @@ export const ProductoForm = () => {
             precio: parseFloat(precio)
         });
         limpiar();
+        navigation.goBack();
+
+        if(route.params && route.params.fnRenderList) {
+            route.params.fnRenderList(); /*aqui estoy teniendo la funcion recuperarProductos*/
+        }
     }
 
     const limpiar = () => {
@@ -77,6 +83,12 @@ export const ProductoForm = () => {
             onPress={guardarProducto}
         />
 
+        <Button
+            style={styles.btnLogOut}
+            title="Cerrar Sesion"
+            onPress={logOut}
+        />
+
     </View>);
 };
 
@@ -88,5 +100,9 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'flex-start',  //eje principal
     },
+
+    btnLogOut:{
+        paddingTop: 10
+    }
 });
 

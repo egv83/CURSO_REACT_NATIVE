@@ -1,0 +1,8 @@
+### DEPENDENIAS PARA DRAWER ###
+npm install @react-navigation/drawer
+npm install react-native-reanimated
+npm install react-native-gesture-handler
+npm install react-native-safe-area-context
+
+AGREGAR IMPOR DEL PLUGIN EN APP.JS
+import "react-native-gesture-handler";
